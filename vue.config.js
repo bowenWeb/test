@@ -54,7 +54,7 @@ function resolve (dir) {
 
 module.exports = {
   pages: pagesObj,
-  // productionSourceMap: true,
+  productionSourceMap: true,
   // chainWebpack: config => {
   //   config.resolve.alias.set('@', resolve('src')),
   //   config.optimization.minimize(true)
